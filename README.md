@@ -34,7 +34,7 @@ A modern, full-stack hotel booking application built with React, TypeScript, and
 - **CORS** - Cross-origin resource sharing
 - **Nodemon** - Development server with auto-restart
 
-## 📦 Repo [](https://bit.ly/4fhLC1v)
+## 📦 Repo [https://bit.ly/4fhLC1v]
 
 
 [](hotels.gif)
