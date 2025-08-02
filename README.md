@@ -36,5 +36,4 @@ A modern, full-stack hotel booking application built with React, TypeScript, and
 
 ## 📦 Repo [https://bit.ly/4fhLC1v]
 
-
-[](hotels.gif)
+[Demo](hotels.gif)
