@@ -6,6 +6,9 @@ interface Props {
   place: Place;
 }
 const Info: FC<Props> = ({ place }) => {
+  const mapURL = import.meta.env.VITE_MAP_URL;
+  const fullMapURL = `${mapURL}&q=${place.location}`;
+
   return (
     <>
       <div className="flex my-6 items-center justify-between">
@@ -46,7 +49,7 @@ const Info: FC<Props> = ({ place }) => {
           <iframe
             width="450"
             height="250"
-            src={`https://www.google.com/maps/embed/v1/search?key=AIzaSyAkbGS-d71NrPUBCmsDbzlkAvfOTzjbp1M&q=${place.location}`}
+            src={fullMapURL}
           ></iframe>
         </div>
       </div>
