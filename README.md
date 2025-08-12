@@ -38,4 +38,4 @@ A modern, full-stack hotel booking application built with React, TypeScript, and
 
 ## Preview
 
-[](hotels.gif)
+![](hotels.gif)
